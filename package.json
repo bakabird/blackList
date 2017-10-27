@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
+    "init": "node init.js",
     "start": "npm run dev",
     "build": "node build/build.js",
     "build_local": "node build/build_local.js"

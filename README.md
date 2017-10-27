@@ -20,21 +20,51 @@ a sub subject of my project *black board*.
 ```javascript
 import wilddog from "wilddog"
 
-// -- YOU SHOULD AJUST THIS -- //
+// -- YOU SHOULD AJUST FOLLOW -- //
 const config = {
   syncURL: "https://wd7141620453corgud.wilddogio.com" 
 };
+// -- YOU SHOULD AJUST ABOVE -- //
 
 const wilddogApp = wilddog.initializeApp(config);
 const sync = wilddogApp.sync();
 export default sync;
 ```
 
-4. Build,it will build a `dist` for you than could be used.
+4. Setting your list name in the `./initData.json`
+
+
+```json
+{
+    "board":{
+		// -- YOU SHOULD AJUST FOLLOW -- //
+        "name": "enter your balcklist name"
+		// -- YOU SHOULD AJUST ABOVE -- //
+    },
+    "posters":{
+        "0": {
+            "id": 0,
+            "name": "新的便签",
+            "pos": 0,
+            "mes": [
+                "第一行"
+            ]
+        }
+    }
+}
+```
+
+
+5. Init your wilddog hub
+
+`$ npm run init`
+
+
+5. Build,it will build a `dist` for you than could be used.
 
 `$ npm run build`
 
-5. push `dist` to your github project that have open the *GitHub Pages* server.
+6. push `dist` to your github project that have open the *GitHub Pages* server.
 
 
 `$ cd ./dist`
