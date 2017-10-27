@@ -1,0 +1,23 @@
+{
+  "board":{
+    "name": "Touching"
+  },
+  "posters":[
+    {
+      "id": 0,
+      "name": "todo",
+      "meses": [
+        "test1",
+        "test2"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "fix",
+      "meses": [
+        "foo",
+        "bar"
+      ]
+    }
+  ]
+}
