@@ -14,21 +14,15 @@ a sub subject of my project *black board*.
 
 `$ npm install`
 
-3. Setting your wilddog url in the `./src/wildSync/index.js`
+3. Setting your wilddog url in the `./src/wildSync/syncUrl.json`
 
 
 ```javascript
-import wilddog from "wilddog"
-
+{
     // -- YOU SHOULD AJUST FOLLOW -- //
-const config = {
-  syncURL: "https://<appId>.wilddogio.com" 
-};
+    "syncURL": "https://<appId>.wilddogio.com/"
     // -- YOU SHOULD AJUST ABOVE -- //
-
-const wilddogApp = wilddog.initializeApp(config);
-const sync = wilddogApp.sync();
-export default sync;
+}
 ```
 
 4. Setting your list name in the `./initData.json`
