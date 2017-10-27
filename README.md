@@ -20,11 +20,11 @@ a sub subject of my project *black board*.
 ```javascript
 import wilddog from "wilddog"
 
-// -- YOU SHOULD AJUST FOLLOW -- //
+    // -- YOU SHOULD AJUST FOLLOW -- //
 const config = {
   syncURL: "https://wd7141620453corgud.wilddogio.com" 
 };
-// -- YOU SHOULD AJUST ABOVE -- //
+    // -- YOU SHOULD AJUST ABOVE -- //
 
 const wilddogApp = wilddog.initializeApp(config);
 const sync = wilddogApp.sync();
