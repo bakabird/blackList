@@ -1,5 +1,5 @@
 import wilddog from "wilddog"
-const config = require("./src/wildSync/initData.json");
+const config = require("./src/wildSync/syncUrl.json");
 const initData = require("./initData.json")
 
 const wilddogApp = wilddog.initializeApp(config);

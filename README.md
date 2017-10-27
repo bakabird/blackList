@@ -22,7 +22,7 @@ import wilddog from "wilddog"
 
     // -- YOU SHOULD AJUST FOLLOW -- //
 const config = {
-  syncURL: "https://wd7141620453corgud.wilddogio.com" 
+  syncURL: "https://<appId>.wilddogio.com" 
 };
     // -- YOU SHOULD AJUST ABOVE -- //
 
@@ -38,7 +38,7 @@ export default sync;
 {
     "board":{
 		// -- YOU SHOULD AJUST FOLLOW -- //
-        "name": "enter your balcklist name"
+        "name": "<balcklist>"
 		// -- YOU SHOULD AJUST ABOVE -- //
     },
     "posters":{
