@@ -1,0 +1,15 @@
+{
+    "board":{
+        "name": "enter your balcklist name"
+    },
+    "posters":{
+        "0": {
+            "id": 0,
+            "name": "新的便签",
+            "pos": 0,
+            "mes": [
+                "第一行"
+            ]
+        }
+    }
+}

@@ -8,9 +8,13 @@ a sub subject of my project *black board*.
 
 1. Clone this project
 
-`git clone https://github.com/bakabird/blackList.git` 
+`$ git clone https://github.com/bakabird/blackList.git` 
 
-2. Setting your wilddog url in the `./src/wildSync/index.js`
+2. Install the node_modules
+
+`$ npm install`
+
+3. Setting your wilddog url in the `./src/wildSync/index.js`
 
 
 ```javascript
@@ -26,11 +30,11 @@ const sync = wilddogApp.sync();
 export default sync;
 ```
 
-3. Build,it will build a `dist` for you than could be used.
+4. Build,it will build a `dist` for you than could be used.
 
 `$ npm run build`
 
-4. push `dist` to your github project that have open the *GitHub Pages* server.
+5. push `dist` to your github project that have open the *GitHub Pages* server.
 
 
 `$ cd ./dist`
